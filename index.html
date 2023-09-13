@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tareas C13</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Administrador de tareas</h1>
+      <input
+        type="text"
+        id="tarea-texto"
+        class="tarea-texto"
+        placeholder="Ingresa el nombre de la tarea"
+        autofocus
+      />
+    </header>
+    <main>
+      <section class="seccion-info">
+        <table class="tabla-de-tareas">
+          <thead>
+            <tr>
+              <th>Tarea</th>
+              <th>Completada</th>
+              <th>Prioridad</th>
+              <th>Categoría</th>
+              <th>Editar</th>
+              <th>Eliminar</th>
+            </tr>
+          </thead>
+          <tbody id="tabla-tareas"></tbody>
+        </table>
+      </section>
+      <!-- <ul>
+        <div class="item">
+          <div class="input-controller">
+            <div class="checkbox-text">
+              <input type="checkbox" id="" />
+              <textarea disabled>Jasjhdgj</textarea>
+            </div>
+            <div class="edit-controller">
+              <div>
+                Prioridad
+                <select id="priority">
+                  <option>Alta</option>
+                  <option selected="">Media</option>
+                  <option>Baja</option>
+                </select>
+              </div>
+              <div>
+                Categorías
+                <select id="category">
+                  <option>Casa</option>
+                  <option selected="">Trabajo</option>
+                  <option>Emprendimiento</option>
+                </select>
+              </div>
+              <i class="fa-solid fa-pen-to-square editBtn"></i>
+              <i class="fa-solid fa-x deleteBtn"></i>
+            </div>
+          </div>
+        </div>
+      </ul> -->
+    </main>
+    <footer>
+      <span class="todos-pendientes"> Pendiente(s)</span>
+      <nav>
+        <a id="countPend" href="#"></a>
+        <a id="showPend" href="">Pendientes</a>
+        <a href="">Completados</a>
+        <a href="">Borrar completados</a>
+      </nav>
+    </footer>
+    <script src="js/app.js"></script>
+  </body>
+</html>
